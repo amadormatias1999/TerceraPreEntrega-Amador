@@ -97,6 +97,11 @@ button.navbar {
   padding: 2rem;
 }
 
+.sobremi__titulo {
+  font-size: 2rem;
+  color: #5b8fb9;
+}
+
 @media (min-width: 768px) {
   .sobremi-info {
     font-size: 2rem;
