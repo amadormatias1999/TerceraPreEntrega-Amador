@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* globales */
+
+body {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: url(imgs/hero.jpeg);
+  background-position: bottom center;
+  background-size: cover;
+
+  height: 25rem;
+}
+
+label {
+  margin: 2rem 4rem;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h3 {
+  font-size: 2rem;
+  color: #5b8fb9;
+}
+
+input {
+  margin: 1rem;
+}
+
+.conteiner {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bg-nav {
+  background-color: whitesmoke;
+}
+.img-logo {
+  max-width: 98px;
+}
+/* FLEXBOX */
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.navbar {
+  background-color: white;
+}
+/* inicio */
+
+.titulo-hero {
+  font-size: 4rem;
+  text-align: left;
+  margin-left: 3rem;
+  color: #5b8fb9;
+  margin-top: 2rem;
+  text-shadow: 5px 3px 16px rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 990px) {
+  .titulo-hero {
+    display: none;
+  }
+}
+
+.foto-cliente {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 43px 3px #c582c5f5;
+  -moz-box-shadow: 0px 0px 43px 3px rgba(240, 152, 240, 0.96);
+  box-shadow: 0px 0px 43px 3px rgba(240, 152, 240, 0.96);
+}
+
+.sobremi {
+  text-align: center;
+  background-color: #03001c;
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  .sobremi-info {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+  }
+}
+
+.sobremi-info h3 {
+  color: #5b8fb9;
+  padding: 2rem;
+}
+
+.sobremi-info p {
+  color: white;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.servicio {
+  text-align: center;
+  background-color: white;
+  font-size: 1.2rem;
+}
+
+.servicio__info {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .servicio__info--bg {
+    background-color: #301e67;
+    border-radius: 0.5rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
+.servicio__info--bg p {
+  margin: 2rem;
+}
+
+.servicio__info--icono {
+  display: inline;
+}
+
+.icono-camara {
+  max-width: 80px;
+  width: 100%;
+  height: auto;
+  margin: 5rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer__info--img {
+  margin: 2rem;
+}
+
+/* galeria */
+
+.img__galeria {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+}
+
+.galeria__grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .galeria__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* clientes */
+
+.cliente-info {
+  font-size: 1rem;
+  text-align: left;
+  color: white;
+  padding: 2rem;
+  background-color: #03001c;
+  margin: 2rem;
+  border-radius: 0.5rem;
+}
+
+.cliente-info p:first-of-type {
+  color: #5b8fb9;
+  display: inline;
+  margin: 2rem;
+}
+
+.cliente-info p:last-of-type {
+  margin: 2rem 15rem 2rem 0;
+}
+
+.cliente-info img {
+  border-radius: 50%;
+}
+
+.cliente-bg {
+  background-color: #301e67;
+  padding: 2rem;
+}
+
+/* contacto */
+.contacto {
+  background-color: #03001c;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.contacto-bg {
+  background-color: #03001c;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.contacto-info {
+  background-color: #301e67;
+  padding: 2rem;
+}
+.contacto h1 {
+  color: #5b8fb9;
+  font-size: 2rem;
+}
+
+.contacto p {
+  font-size: 1rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.boton {
+  padding: 0.5rem;
+}
+.boton:hover:hover {
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+/* ayuda */
+
+.ayuda {
+  text-align: left;
+  color: white;
+  background-color: #301e67;
+  padding: 2rem;
+}
+
+.ayuda h1 {
+  font-size: 2rem;
+  color: #5b8fb9;
+}
+
+.ayuda-info {
+  background-color: #03001c;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.ayuda-info h3 {
+  color: #5b8fb9;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.ayuda-info p {
+  margin: 1rem;
+  font-size: 1rem;
+}
