@@ -99,7 +99,7 @@ button.navbar {
 
 .sobremi__titulo {
   font-size: 2rem;
-  color: #5b8fb9;
+  color: hsl(207, 40%, 54%);
 }
 
 @media (min-width: 768px) {
