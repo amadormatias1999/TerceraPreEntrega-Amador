@@ -48,7 +48,7 @@ input {
 .bg-nav {
   background-color: whitesmoke;
 }
-.img-logo {
+.img__logo {
   max-width: 98px;
 }
 /* FLEXBOX */
@@ -64,7 +64,7 @@ button.navbar {
 }
 /* inicio */
 
-.titulo-hero {
+.titulo__hero {
   font-size: 4rem;
   text-align: left;
   margin-left: 3rem;
@@ -74,12 +74,12 @@ button.navbar {
 }
 
 @media (max-width: 990px) {
-  .titulo-hero {
+  .titulo__hero {
     display: none;
   }
 }
 
-.foto-cliente {
+.foto__cliente {
   max-width: 400px;
   width: 100%;
   height: auto;
@@ -103,7 +103,7 @@ button.navbar {
 }
 
 @media (min-width: 768px) {
-  .sobremi-info {
+  .sobremi__info {
     font-size: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -112,12 +112,12 @@ button.navbar {
   }
 }
 
-.sobremi-info h3 {
+.sobremi__info h3 {
   color: #5b8fb9;
   padding: 2rem;
 }
 
-.sobremi-info p {
+.sobremi__info p {
   color: white;
   font-size: 1rem;
   margin-top: 2rem;
@@ -164,7 +164,7 @@ button.navbar {
 }
 
 @media (min-width: 768px) {
-  .footer-icons {
+  .footer__icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
