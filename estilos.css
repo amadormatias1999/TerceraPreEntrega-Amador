@@ -203,7 +203,7 @@ button.navbar {
 
 /* clientes */
 
-.cliente-info {
+.cliente__info {
   font-size: 1rem;
   text-align: left;
   color: white;
@@ -213,21 +213,21 @@ button.navbar {
   border-radius: 0.5rem;
 }
 
-.cliente-info p:first-of-type {
+.cliente__info p:first-of-type {
   color: #5b8fb9;
   display: inline;
   margin: 2rem;
 }
 
-.cliente-info p:last-of-type {
+.cliente__info p:last-of-type {
   margin: 2rem 15rem 2rem 0;
 }
 
-.cliente-info img {
+.cliente__info img {
   border-radius: 50%;
 }
 
-.cliente-bg {
+.cliente__bg {
   background-color: #301e67;
   padding: 2rem;
 }
