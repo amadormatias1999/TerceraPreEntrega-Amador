@@ -45,6 +45,12 @@ input {
 .img__logo {
   max-width: 98px;
 }
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
 /* FLEXBOX */
 
 .header-flex {
@@ -91,9 +97,10 @@ button.navbar {
   padding: 2rem 0.5rem 2rem 0.5rem;
 }
 
-.sobremi__titulo {
+.tituloh3 {
   font-size: 2rem;
   color: hsl(207, 40%, 54%);
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -278,20 +285,18 @@ button.navbar {
 
 .ayuda {
   text-align: left;
-  color: white;
-  background-color: #301e67;
-  padding: 2rem;
 }
 
 .ayuda h1 {
   font-size: 2rem;
+  text-align: center;
   color: #5b8fb9;
 }
 
 .ayuda__info {
-  background-color: #03001c;
-  margin: 2rem;
-  padding: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+  padding: 1rem;
   border-radius: 0.5rem;
 }
 
@@ -302,6 +307,6 @@ button.navbar {
 }
 
 .ayuda__info p {
-  margin: 1rem;
+  color: #000;
   font-size: 1rem;
 }
