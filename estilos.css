@@ -240,13 +240,13 @@ button.navbar {
   text-align: center;
 }
 
-.contacto-bg {
+.contacto__bg {
   background-color: #03001c;
   border-radius: 0.5rem;
   padding: 2rem;
 }
 
-.contacto-info {
+.contacto__info {
   background-color: #301e67;
   padding: 2rem;
 }
@@ -283,20 +283,20 @@ button.navbar {
   color: #5b8fb9;
 }
 
-.ayuda-info {
+.ayuda__info {
   background-color: #03001c;
   margin: 2rem;
   padding: 2rem;
   border-radius: 0.5rem;
 }
 
-.ayuda-info h3 {
+.ayuda__info h3 {
   color: #5b8fb9;
   font-size: 1rem;
   margin: 1rem;
 }
 
-.ayuda-info p {
+.ayuda__info p {
   margin: 1rem;
   font-size: 1rem;
 }
