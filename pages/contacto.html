@@ -72,57 +72,38 @@
 
       <h1 class="titulo__hero">¡Hola! Soy Matias</h1>
     </header>
-    <main>
-      <section class="contacto">
-        <div class="container">
-          <div class="contacto__info">
-            <div class="contacto__bg">
-              <div>
-                <h1>Bienvenido a la seccion de consultas</h1>
-                <p>Recuerde ser respetuoso/a</p>
-              </div>
-              <form action="">
-                <label for="nombre">Nombre:</label>
-                <input
-                  type="text"
-                  name="nombre"
-                  id="nombre"
-                  placeholder="Ingrese su nombre"
-                  required
-                />
-                <br />
-
-                <label for="apellido">Apellido:</label>
-                <input
-                  type="text"
-                  name="apellido"
-                  id="apellido"
-                  placeholder="Ingrese su apellido"
-                />
-                <br />
-                <label for="apellido">Email:</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="ejemplo@mail.com"
-                />
-                <br />
-                <label for="mensaje">Su consulta</label>
-                <br />
-                <textarea
-                  name="mensaje"
-                  id="mensaje"
-                  cols="30"
-                  rows="10"
-                ></textarea>
-                <br />
-                <input class="boton" type="submit" value="ENVIAR" />
-                <input class="boton" type="reset" value="BORRAR" />
-              </form>
-            </div>
+    <main class="sobremi">
+      <section class="contacto container">
+        <form class="formulario">
+          <div class="campo">
+            <label class="campo__label" for="nombre"> Nombre</label>
+            <input
+              class="campo__field"
+              type="text"
+              placeholder="Tu Nombre"
+              id="nombre"
+            />
           </div>
-        </div>
+
+          <div class="campo">
+            <label class="campo__label" for="email"> E-mail </label>
+            <input
+              class="campo__field"
+              type="email"
+              placeholder="Tu E-mail"
+              id="email"
+            />
+          </div>
+          <div class="campo">
+            <label class="campo__label" for="mensaje"> Mensaje</label>
+            <textarea class="campo__field campo__field--texarea" id="mensaje">
+            </textarea>
+          </div>
+
+          <div class="campo">
+            <input type="submit" value="Enviar" class="boton boton--primario" />
+          </div>
+        </form>
       </section>
     </main>
 
