@@ -29,13 +29,12 @@
 
 .sobremi {
   text-align: center;
-  background-color: #03001c;
+  background-color: $color-secundario;
   padding: 2rem 0.5rem 2rem 0.5rem;
 }
 
 .tituloh3 {
   font-size: 2rem;
-  color: hsl(207, 40%, 54%);
   text-align: center;
 }
 
@@ -50,7 +49,7 @@
 }
 
 .sobremi__info h3 {
-  color: #5b8fb9;
+  color: $color-primario;
   padding: 2rem;
 }
 
@@ -72,7 +71,7 @@
 
 @media (min-width: 768px) {
   .servicio__info--bg {
-    background-color: #301e67;
+    background-color: $color-terciario;
     border-radius: 0.5rem;
     color: white;
     display: grid;

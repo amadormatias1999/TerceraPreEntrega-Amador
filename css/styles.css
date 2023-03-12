@@ -31,7 +31,6 @@
 
 .tituloh3 {
   font-size: 2rem;
-  color: hsl(207, 40%, 54%);
   text-align: center;
 }
 
@@ -194,13 +193,12 @@
 }
 
 .ayuda__info h3 {
-  color: #5b8fb9;
   font-size: 1rem;
   margin: 1rem;
 }
 
 .ayuda__info p {
-  color: #000;
+  color: black;
   font-size: 1rem;
 }
 
@@ -230,7 +228,7 @@
 
 .cliente__info--p {
   margin-top: 2rem;
-  color: #000;
+  color: black;
 }
 
 .cliente__info img {
@@ -271,7 +269,7 @@
 }
 
 .ayuda__info p {
-  color: #000;
+  color: black;
   font-size: 1rem;
 }
 
@@ -329,7 +327,7 @@ iframe {
 
 .boton {
   display: block;
-  color: white;
+  color: whitesmoke;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 1rem 3rem;
