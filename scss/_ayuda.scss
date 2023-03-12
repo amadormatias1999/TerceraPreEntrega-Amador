@@ -1,0 +1,29 @@
+/* ayuda */
+
+.ayuda {
+  text-align: left;
+}
+
+.ayuda h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #5b8fb9;
+}
+
+.ayuda__info {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.ayuda__info h3 {
+  color: #5b8fb9;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.ayuda__info p {
+  color: #000;
+  font-size: 1rem;
+}
