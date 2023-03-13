@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 @import "header";
 @import "galeria";
 @import "contacto";
@@ -58,16 +59,7 @@ iframe {
 }
 
 .boton {
-  display: block;
-  color: whitesmoke;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  border: none;
+  @include boton;
 }
 @media (min-width: 768px) {
   .boton {
@@ -87,12 +79,6 @@ iframe {
 }
 
 /* FLEXBOX */
-
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 button.navbar {
   background-color: white;

@@ -346,12 +346,6 @@ iframe {
 }
 
 /* FLEXBOX */
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 button.navbar {
   background-color: white;
 }/*# sourceMappingURL=styles.css.map */
