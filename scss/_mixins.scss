@@ -10,3 +10,13 @@
   margin-bottom: 2rem;
   border: none;
 }
+
+@mixin grid-768 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@mixin grid-1280 {
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -13,13 +13,11 @@
 
 @media (min-width: 768px) {
   .galeria__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    @include grid-768;
   }
 }
 @media (min-width: 1280px) {
   .galeria__grid {
-    grid-template-columns: repeat(3, 1fr);
+    @include grid-1280;
   }
 }

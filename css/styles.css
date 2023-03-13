@@ -228,9 +228,12 @@
   .cliente__testimonios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
-    margin: 2rem;
+    gap: 2rem;
+  }
+}
+@media (min-width: 1280px) {
+  .cliente__testimonios {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 /* ayuda */
@@ -238,7 +241,19 @@
   text-align: left;
 }
 
-.ayuda h1 {
+@media (min-width: 768px) {
+  .ayuda {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+@media (min-width: 1280px) {
+  .ayuda {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.ayuda .ayuda h1 {
   font-size: 2rem;
   text-align: center;
   color: #5b8fb9;

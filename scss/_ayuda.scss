@@ -4,7 +4,18 @@
   text-align: left;
 }
 
-.ayuda h1 {
+@media (min-width: 768px) {
+  .ayuda {
+    @include grid-768;
+  }
+}
+@media (min-width: 1280px) {
+  .ayuda {
+    @include grid-1280;
+  }
+}
+
+.ayuda .ayuda h1 {
   font-size: 2rem;
   text-align: center;
   color: $color-primario;
