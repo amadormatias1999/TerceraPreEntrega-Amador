@@ -107,7 +107,7 @@ button.navbar {
   margin-top: 2rem;
   margin-bottom: 4rem;
   border-radius: 0.5rem;
-  box-shadow: 0px 0px 43px 3px rgba(240, 152, 240, 0.96);
+  box-shadow: 0px 0px 43px 3px #301e67;
 }
 
 .sobremi {
@@ -140,6 +140,12 @@ button.navbar {
     margin-top: 2rem;
   }
 }
+.sobremi__info p {
+  color: white;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
 .servicio {
   text-align: center;
   background-color: white;
@@ -326,7 +332,6 @@ button.navbar {
 .ayuda__info h3 {
   color: #5b8fb9;
   font-size: 1rem;
-  margin: 1rem;
 }
 .ayuda__info p {
   color: black;

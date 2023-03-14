@@ -22,9 +22,9 @@
   margin-top: 2rem;
   margin-bottom: 4rem;
   border-radius: 0.5rem;
-  -webkit-box-shadow: 0px 0px 43px 3px #c582c5f5;
-  -moz-box-shadow: 0px 0px 43px 3px rgba(240, 152, 240, 0.96);
-  box-shadow: 0px 0px 43px 3px rgba(240, 152, 240, 0.96);
+  -webkit-box-shadow: 0px 0px 43px 3px $color-terciario;
+  -moz-box-shadow: 0px 0px 43px 3px $color-terciario;
+  box-shadow: 0px 0px 43px 3px $color-terciario;
 }
 
 .sobremi {
@@ -57,16 +57,11 @@
   }
 }
 
-// .sobremi__info h3 {
-//   color: $color-primario;
-//   padding: 2rem;
-// }
-
-// .sobremi__info p {
-//   color: white;
-//   font-size: 1rem;
-//   margin-top: 2rem;
-// }
+.sobremi__info p {
+  color: white;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
 
 .servicio {
   text-align: center;
