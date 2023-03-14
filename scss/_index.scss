@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* globales */
+
+body {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: url(/imgs/hero.jpeg);
+  background-position: bottom center;
+  background-size: cover;
+
+  height: 25rem;
+}
+
+label {
+  margin: 2rem 4rem;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $fuente-principal;
+}
+h3 {
+  font-size: 2rem;
+  color: $color-primario;
+}
+
+input {
+  margin: 1rem;
+}
+
+.bg-nav {
+  background-color: whitesmoke;
+}
+.img__logo {
+  max-width: 98px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+.boton {
+  @include boton;
+}
+@media (min-width: 768px) {
+  .boton {
+    display: inline-block;
+  }
+}
+.boton:hover {
+  cursor: pointer;
+}
+.boton--primario {
+  background-color: black;
+}
+
+.icono__camara {
+  width: 20%;
+  height: auto;
+}
+
+/* FLEXBOX */
+
+button.navbar {
+  background-color: white;
+}
