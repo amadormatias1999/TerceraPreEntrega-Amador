@@ -189,7 +189,7 @@ button.navbar {
 
 .galeria__grid {
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
 }
 @media (min-width: 768px) {
   .galeria__grid {
@@ -262,6 +262,9 @@ button.navbar {
   background-color: white;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
+  box-shadow: 0px 0px 41px -5px rgba(255, 255, 255, 0.42);
+  -webkit-box-shadow: 0px 0px 41px -5px rgba(255, 255, 255, 0.42);
+  -moz-box-shadow: 0px 0px 41px -5px rgba(255, 255, 255, 0.42);
 }
 
 .cliente__info--head {
@@ -316,6 +319,9 @@ button.navbar {
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 0.5rem;
+  box-shadow: 0px 0px 41px -5px rgba(255, 255, 255, 0.42);
+  -webkit-box-shadow: 0px 0px 41px -5px rgba(255, 255, 255, 0.42);
+  -moz-box-shadow: 0px 0px 41px -5px rgba(255, 255, 255, 0.42);
 }
 .ayuda__info h3 {
   color: #5b8fb9;
