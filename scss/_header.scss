@@ -46,18 +46,27 @@
     align-items: center;
     column-gap: 2rem;
   }
+  h3 {
+    color: $color-primario;
+    padding: 2rem;
+  }
+  p {
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
 }
 
-.sobremi__info h3 {
-  color: $color-primario;
-  padding: 2rem;
-}
+// .sobremi__info h3 {
+//   color: $color-primario;
+//   padding: 2rem;
+// }
 
-.sobremi__info p {
-  color: white;
-  font-size: 1rem;
-  margin-top: 2rem;
-}
+// .sobremi__info p {
+//   color: white;
+//   font-size: 1rem;
+//   margin-top: 2rem;
+// }
 
 .servicio {
   text-align: center;
@@ -69,6 +78,10 @@
   padding-bottom: 2rem;
 }
 
+.servicio__info--bg p {
+  margin: 2rem;
+}
+
 @media (min-width: 768px) {
   .servicio__info--bg {
     background-color: $color-terciario;
@@ -78,9 +91,6 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-}
-.servicio__info--bg p {
-  margin: 2rem;
 }
 
 .footer {

@@ -30,15 +30,11 @@
 .cliente__info img {
   border-radius: 50%;
 }
-
-@media (min-width: 768px) {
-  .cliente__testimonios {
+.cliente__testimonios {
+  @media (min-width: 768px) {
     @include grid-768;
   }
-}
-
-@media (min-width: 1280px) {
-  .cliente__testimonios {
+  @media (min-width: 1280px) {
     @include grid-1280;
   }
 }

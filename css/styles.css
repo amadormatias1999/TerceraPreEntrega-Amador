@@ -62,16 +62,15 @@ iframe {
   margin-bottom: 2rem;
   border: none;
 }
+.boton :hover {
+  cursor: pointer;
+}
 
 @media (min-width: 768px) {
   .boton {
     display: inline-block;
   }
 }
-.boton:hover {
-  cursor: pointer;
-}
-
 .boton--primario {
   background-color: black;
 }
@@ -131,18 +130,16 @@ button.navbar {
     -moz-column-gap: 2rem;
          column-gap: 2rem;
   }
+  h3 {
+    color: #5b8fb9;
+    padding: 2rem;
+  }
+  p {
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
 }
-.sobremi__info h3 {
-  color: #5b8fb9;
-  padding: 2rem;
-}
-
-.sobremi__info p {
-  color: white;
-  font-size: 1rem;
-  margin-top: 2rem;
-}
-
 .servicio {
   text-align: center;
   background-color: white;
@@ -151,6 +148,10 @@ button.navbar {
 
 .servicio__info {
   padding-bottom: 2rem;
+}
+
+.servicio__info--bg p {
+  margin: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -163,10 +164,6 @@ button.navbar {
     align-items: center;
   }
 }
-.servicio__info--bg p {
-  margin: 2rem;
-}
-
 .footer {
   text-align: center;
   background-color: whitesmoke;
@@ -194,7 +191,6 @@ button.navbar {
   display: grid;
   gap: 2rem;
 }
-
 @media (min-width: 768px) {
   .galeria__grid {
     display: grid;
@@ -207,6 +203,7 @@ button.navbar {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 /* contacto */
 .contacto {
   text-align: center;
@@ -249,34 +246,6 @@ button.navbar {
 
 .campo__field--texarea {
   height: 20rem;
-}
-
-/* ayuda */
-.ayuda {
-  text-align: left;
-}
-
-.ayuda h1 {
-  font-size: 2rem;
-  text-align: center;
-  color: #5b8fb9;
-}
-
-.ayuda__info {
-  background-color: white;
-  margin-top: 2rem;
-  padding: 1rem;
-  border-radius: 0.5rem;
-}
-
-.ayuda__info h3 {
-  font-size: 1rem;
-  margin: 1rem;
-}
-
-.ayuda__info p {
-  color: black;
-  font-size: 1rem;
 }
 
 /* clientes */
@@ -324,11 +293,11 @@ button.navbar {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 /* ayuda */
 .ayuda {
   text-align: left;
 }
-
 @media (min-width: 768px) {
   .ayuda {
     display: grid;
@@ -341,11 +310,6 @@ button.navbar {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-.ayuda .ayuda h1 {
-  font-size: 2rem;
-  text-align: center;
-  color: #5b8fb9;
-}
 
 .ayuda__info {
   background-color: white;
@@ -353,13 +317,11 @@ button.navbar {
   padding: 1rem;
   border-radius: 0.5rem;
 }
-
 .ayuda__info h3 {
   color: #5b8fb9;
   font-size: 1rem;
   margin: 1rem;
 }
-
 .ayuda__info p {
   color: black;
   font-size: 1rem;

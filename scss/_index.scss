@@ -52,14 +52,14 @@ iframe {
 
 .boton {
   @include boton;
+  :hover {
+    cursor: pointer;
+  }
 }
 @media (min-width: 768px) {
   .boton {
     display: inline-block;
   }
-}
-.boton:hover {
-  cursor: pointer;
 }
 .boton--primario {
   background-color: black;

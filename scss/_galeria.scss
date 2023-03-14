@@ -9,15 +9,10 @@
 .galeria__grid {
   display: grid;
   gap: 2rem;
-}
-
-@media (min-width: 768px) {
-  .galeria__grid {
+  @media (min-width: 768px) {
     @include grid-768;
   }
-}
-@media (min-width: 1280px) {
-  .galeria__grid {
+  @media (min-width: 1280px) {
     @include grid-1280;
   }
 }

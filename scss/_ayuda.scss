@@ -2,23 +2,13 @@
 
 .ayuda {
   text-align: left;
-}
-
-@media (min-width: 768px) {
-  .ayuda {
+  @media (min-width: 768px) {
     @include grid-768;
   }
-}
-@media (min-width: 1280px) {
-  .ayuda {
+
+  @media (min-width: 1280px) {
     @include grid-1280;
   }
-}
-
-.ayuda .ayuda h1 {
-  font-size: 2rem;
-  text-align: center;
-  color: $color-primario;
 }
 
 .ayuda__info {
@@ -26,15 +16,13 @@
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 0.5rem;
-}
-
-.ayuda__info h3 {
-  color: $color-primario;
-  font-size: 1rem;
-  margin: 1rem;
-}
-
-.ayuda__info p {
-  color: black;
-  font-size: 1rem;
+  h3 {
+    color: $color-primario;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  p {
+    color: black;
+    font-size: 1rem;
+  }
 }
