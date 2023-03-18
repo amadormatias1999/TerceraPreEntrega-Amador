@@ -22,7 +22,9 @@
   align-items: center;
   justify-content: flex-start;
   gap: 2rem;
-  color: $color-primario;
+  p {
+    color: $color-primario;
+  }
 }
 
 .cliente__info--p {

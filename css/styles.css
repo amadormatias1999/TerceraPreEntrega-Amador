@@ -278,6 +278,8 @@ button.navbar {
   align-items: center;
   justify-content: flex-start;
   gap: 2rem;
+}
+.cliente__info--head p {
   color: #5b8fb9;
 }
 
